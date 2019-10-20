@@ -22,19 +22,3 @@
 4.  com.msb.hadoop.mapreduce.fof
     此案例关注大数据计算的思维模式
 ```
-### 课程目录
-
-1.  hadoop-大数据启蒙-初识HDFS
-2.  hadoop-HDFS理论基础读写流程
-3.  hadoop-HDFS集群搭建-伪分布式模式
-4.  hadoop-HDFS集群搭建-HA模式概念
-5.  hadoop-HDFS集群搭建-HA模式验证
-6.  hadoop-HDFS权限、企业级搭建、idea+maven开发HDFS
-7.  hadoop-MapReduce原理精讲、轻松入门
-8.  hadoop-MapReduce调度原理，Yarn原理
-9.  hadoop-MapReduce-Yarn集群搭建、idea开发MR的WC程序
-10.  hadoop-MapReduce作业提交方式、源码-客户端提交源码
-11.  hadoop-MapReduce源码-MapTask-input源码精讲
-12.  hadoop-MapReduce源码-MapTask-output和ReduceTask精讲
-13.  hadoop-MapReduce开发-分组取TopN-API精炼
-14.  hadoop-MapReduce开发-推荐系统-大数据思维模式
