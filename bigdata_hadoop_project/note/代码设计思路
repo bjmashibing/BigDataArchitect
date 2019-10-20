@@ -1,0 +1,246 @@
+上课人数：指标
+
+男生
+女生
+戴眼镜
+不戴眼镜
+戴眼镜男生
+不戴眼镜男生
+戴眼镜女生
+不戴眼镜女生
+
+张三		男		戴眼镜
+李四		男生	不戴眼镜
+
+需求：通过一个MR将所有存在的值都计算出来
+map：输入一条记录，输出是K-V键值对的数据
+
+男生				张三
+戴眼镜				张三
+戴眼镜男生			张三
+男生				李四
+不戴眼镜			李四
+不戴眼镜男生		李四
+
+reduce：
+男生				张三				2
+男生				李四
+
+戴眼镜				张三				1
+
+戴眼镜男生			张三				1
+
+不戴眼镜			李四				1
+
+不戴眼镜男生		李四				1
+
+map:
+读取到一行记录之后去匹配所有可能存在的key，每一个匹配项可以当做一条输出记录
+reduce：
+将相同key的数据汇聚到一起，按照名称进行累计求和操作，得到最终的结果
+
+-------------------------------------------------
+指标：新增用户
+用户基本信息模块：	时间
+浏览器分析模块：	时间，浏览器
+
+可能存在的情况：
+时间
+时间，浏览器
+
+数据：
+20190818	张三	www.mashibing.com	firefox-48
+20190818	李四	www.mashibing.com	firefox-53
+
+通过一个MR计算所有结果：
+map:
+key:								value:
+20190818							张三
+20190818,firefox-48					张三
+20190818,firefox-all				张三
+
+
+20190818							李四
+20190818,firefox-53					李四
+20190818,firefox-all				李四
+
+reduce：
+20190818							张三			2
+20190818							李四
+
+20190818,firefox-48					张三			1
+
+20190818,firefox-all				张三			2
+20190818,firefox-all				李四
+
+20190818,firefox-53					李四			1
+
+
+-------------------------------------------------
+指标：新增用户
+用户基本信息模块：	时间，平台
+浏览器分析模块：	时间，浏览器，平台
+
+可能存在的情况：
+时间
+时间，平台
+时间，浏览器，平台
+
+数据：
+20190818	张三	www.mashibing.com	firefox-48		website
+20190818	李四	www.mashibing.com	firefox-53		website
+
+通过一个MR计算所有结果：
+map:
+key:													value:
+20190818												张三
+20190818,website										张三
+20190818,website-all									张三
+
+20190818,firefox-48										张三
+20190818,firefox-48,website								张三
+20190818,firefox-48,website-all							张三
+20190818,firefox-all									张三
+20190818,firefox-all,website							张三
+20190818,firefox-all,website-all						张三
+
+
+20190818												李四
+20190818,website										李四
+20190818,website-all									李四
+20190818,firefox-53										李四
+20190818,firefox-53,website								李四
+20190818,firefox-53,website-all							李四
+20190818,firefox-all									李四
+20190818,firefox-all,website							李四
+20190818,firefox-all,website-all						李四
+
+reduce：
+
+20190818,website										张三		2
+20190818,website										李四
+
+20190818,website-all									张三		2
+20190818,website-all									李四
+
+20190818,firefox-48										张三		1
+
+20190818,firefox-48,website								张三		1
+
+20190818,firefox-48,website-all							张三		1
+
+20190818,firefox-all									张三		2
+20190818,firefox-all									李四
+
+20190818,firefox-all,website							张三		2
+20190818,firefox-all,website							李四
+
+20190818,firefox-all,website-all						张三		2
+20190818,firefox-all,website-all						李四
+
+20190818,firefox-53										李四		1
+
+20190818,firefox-53,website								李四		1
+
+20190818,firefox-53,website-all							李四		1
+
+
+-------------------------------------------------
+指标：新增用户
+用户基本信息模块：	时间，平台,user
+浏览器分析模块：	时间，浏览器，平台,browser
+
+可能存在的情况：
+时间user
+时间，平台user
+时间，浏览器，平台browser
+
+数据：
+20190818	张三	www.mashibing.com	firefox-48		website
+20190818	李四	www.mashibing.com	firefox-53		website
+
+通过一个MR计算所有结果：
+map:
+key:															value:
+20190818,user													张三
+20190818,website,user											张三
+20190818,website-all,user										张三
+
+20190818,firefox-48,browser										张三
+20190818,firefox-48,website,browser								张三
+20190818,firefox-48,website-all	,browser						张三
+20190818,firefox-all,browser									张三
+20190818,firefox-all,website,browser							张三
+20190818,firefox-all,website-all,browser						张三
+
+
+20190818,user													李四
+20190818,website,user											李四
+20190818,website-all,user										李四
+20190818,firefox-53	,browser									李四
+20190818,firefox-53,website,browser								李四
+20190818,firefox-53,website-all,browser							李四
+20190818,firefox-all,browser									李四
+20190818,firefox-all,website,browser							李四
+20190818,firefox-all,website-all,browser						李四
+
+reduce：
+
+20190818,website,user												张三		2
+20190818,website,user												李四
+
+20190818,website-all,user											张三		2
+20190818,website-all,user											李四
+
+20190818,firefox-48,browser											张三		1
+
+20190818,firefox-48,website	,browser								张三		1
+
+20190818,firefox-48,website-all,browser								张三		1
+
+20190818,firefox-all,browser										张三		2
+20190818,firefox-all,browser										李四
+
+20190818,firefox-all,website,browser								张三		2
+20190818,firefox-all,website,browser								李四
+
+20190818,firefox-all,website-all,browser							张三		2
+20190818,firefox-all,website-all,browser							李四
+
+20190818,firefox-53,browser											李四		1
+
+20190818,firefox-53,website	,browser								李四		1
+
+20190818,firefox-53,website-all,browser								李四		1
+
+------------------
+map:
+1、读取一条记录，将记录拆分成K-V格式的数据
+2、key要求是维度组合（条件组合）
+3、value要求是唯一标识一行记录的值
+
+reduce:
+1、将相同key的数据汇聚到一起，
+2、将不同情况的结果插入到不同的表中
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

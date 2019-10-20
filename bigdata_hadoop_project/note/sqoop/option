@@ -1,0 +1,17 @@
+import 
+--connect 
+jdbc:mysql://node01:3306/result_db 
+--username 
+root 
+--password 
+123 
+--as-textfile 
+--columns 
+id,browser_name,browser_version
+--delete-target-dir 
+-m 
+1 
+--table 
+dimension_browser 
+--target-dir 
+/sqoop

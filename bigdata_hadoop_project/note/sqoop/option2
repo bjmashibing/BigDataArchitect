@@ -1,0 +1,15 @@
+import 
+--connect 
+jdbc:mysql://node01:3306/result_db 
+--username 
+root 
+--password 
+123 
+--as-textfile 
+--delete-target-dir 
+-m 
+1 
+--target-dir 
+/sqoop
+-e
+select * from dimension_browser where id > 20 and $CONDITIONS

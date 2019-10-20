@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+		<name>collector_new_install_user</name>
+		<value>com.mashibing.transformer.mr.nu.StatsUserNewInstallUserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_browser_new_install_user</name>
+		<value>com.mashibing.transformer.mr.nu.StatsDeviceBrowserNewInstallUserCollector</value>
+	</property>
+	<property>
+		<name>collector_active_user</name>
+		<value>com.mashibing.transformer.mr.au.ActiveUserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_browser_active_user</name>
+		<value>com.mashibing.transformer.mr.au.ActiveUserBrowserCollector</value>
+	</property>
+</configuration>

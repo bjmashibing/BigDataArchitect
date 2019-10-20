@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+      <name>mysql.batch.number</name>
+      <value>10</value>
+    </property>
+
+	<property>
+	  <name>mysql.report.driver</name>
+	  <value>com.mysql.jdbc.Driver</value>
+	</property>
+
+	<property>
+	  <name>mysql.report.url</name>
+	  <value>jdbc:mysql://node01:3306/result_db?useUnicode=true&amp;characterEncoding=utf8</value>
+	</property>	
+
+	<property>
+	  <name>mysql.report.username</name>
+	  <value>root</value>
+	</property>	
+
+	<property>
+	  <name>mysql.report.password</name>
+	  <value>123</value>
+	</property>	
+</configuration>
