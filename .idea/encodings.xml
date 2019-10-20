@@ -2,5 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bigdata_hadoop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bigdata_redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bigdata_spark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bigdata_zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ksldjfksdf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ooxx11" charset="UTF-8" />
   </component>
 </project>

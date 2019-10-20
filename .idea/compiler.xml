@@ -7,15 +7,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BigDataArchitect" />
+        <module name="bigdata-redis" />
+        <module name="bigdata-hadoop" />
+        <module name="bigdata-zookeeper" />
+        <module name="bigdata-spark" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
+      <module name="bigdata-hadoop" target="1.8" />
+      <module name="bigdata-redis" target="1.8" />
+      <module name="bigdata-spark" target="1.8" />
+      <module name="bigdata-zookeeper" target="1.8" />
       <module name="BigDataArchitect" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BigDataArchitect" options="-parameters" />
+      <module name="bigdata-hadoop" options="-parameters" />
+      <module name="bigdata-redis" options="-parameters" />
+      <module name="bigdata-spark" options="-parameters" />
+      <module name="bigdata-zookeeper" options="-parameters" />
     </option>
   </component>
 </project>

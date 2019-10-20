@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BigDataArchitect.iml" filepath="$PROJECT_DIR$/.idea/BigDataArchitect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata_hadoop/bigdata-hadoop.iml" filepath="$PROJECT_DIR$/bigdata_hadoop/bigdata-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata_redis/bigdata-redis.iml" filepath="$PROJECT_DIR$/bigdata_redis/bigdata-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata_spark/bigdata-spark.iml" filepath="$PROJECT_DIR$/bigdata_spark/bigdata-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata_zookeeper/bigdata-zookeeper.iml" filepath="$PROJECT_DIR$/bigdata_zookeeper/bigdata-zookeeper.iml" />
     </modules>
   </component>
 </project>

@@ -7,7 +7,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata_spark/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata_zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata_redis/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ksldjfksdf/pom.xml" />
+        <option value="$PROJECT_DIR$/ooxx11/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
