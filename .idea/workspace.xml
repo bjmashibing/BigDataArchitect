@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5970735-b227-4cf9-a656-bd146d219b83" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/BigDataArchitect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sailtou.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_clearspring_analytics_stream_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_9_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_iharder_base64_2_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_razorvine_pyrolite_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_tests_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_crypto_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ivy_ivy_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_11_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_asm5_shaded_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_htrace_htrace_core_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_7_45.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_shims_0_7_45.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scalap_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigDataArchitect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/data/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/data/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/hadoop-install.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/ppt/01大数据启蒙.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/ppt/02hadoop-hdfs.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/ppt/03hadoop-hdfs-usage.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/ppt/04hadoop-hdfs-ha.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/ppt/05hadoop-mapreduce.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/ppt/06hadoop-MR-源码.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/ppt/07hadoop-MR-案例01-分组TOP.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/fof/FMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/fof/FReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/fof/MyFof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/hdfs/TestHDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/topn/MyTopN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/topn/TGroupingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/topn/TKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/topn/TMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/topn/TPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/topn/TReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/topn/TSortComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/wc/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/wc/MyReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/java/com/msb/bigdata/hadoop/wc/MyWordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/resources/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/resources/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/resources/mapred-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_hadoop/src/main/resources/yarn-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/IMAGE/01Redis前无古人后无来者.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/IMAGE/01Redis前无古人后无来者.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/IMAGE/02REDIS集群知识点.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/IMAGE/02REDIS集群知识点.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/src/main/java/com/msb/spring/redis/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/src/main/java/com/msb/spring/redis/demo/MyTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/src/main/java/com/msb/spring/redis/demo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/src/main/java/com/msb/spring/redis/demo/TestRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_redis/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/ScalaToSpark.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/Spark-core.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/bigdata-spark.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/bigdataspark.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/data/pvuvdata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/data/testdata.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/image/Spark@图解 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/image/Spark@图解 (1).pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/image/Spark@图解.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/image/Spark@图解.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/image/scala_iterator源码分析图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/image/scala_iterator源码分析图.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/scala.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/java/com/msb/bigdata/spark/WordCountJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/Lesson00_Object_Class.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/Lesson02_Functions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/Lesson03_Collections.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/Lesson04_trait.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/Lesson05_case_class.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/Lesson06_match.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/Lesson07_PartialFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/Lesson08_implicit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/scala/TestJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/spark/WordCountScala.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/spark/lesson01_rdd_api01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/spark/lesson02_rdd_api_sort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/spark/lesson03_rdd_aggregator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/spark/lesson04_rdd_partitions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_spark/src/main/scala/com/msb/bigdata/spark/lesson05_rdd_gaoji.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/IMAGE/ZOOKEEPER理论.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/IMAGE/ZOOKEEPER理论.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/config/DefaultWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/config/MyConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/config/WatchCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/config/ZKUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/configurationcenter/DefaultWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/configurationcenter/MyConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/configurationcenter/TestZK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/configurationcenter/WatchCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/configurationcenter/ZKConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/configurationcenter/ZKUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/lock/TestLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/lock/WatchCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/locks/TestLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/java/com/msb/zookeeper/locks/WatchCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata_zookeeper/src/test/java/com/msb/zookeeper/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/fof/FMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/fof/FReducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/fof/MyFof.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/hdfs/TestHDFS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/topn/MyTopN.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/topn/TGroupingComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/topn/TKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/topn/TMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/topn/TPartitioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/topn/TReducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/topn/TSortComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/wc/MyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/wc/MyReducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/hadoop/wc/MyWordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Dog$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/God$class.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/God.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR$$anonfun$main$3$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR$$anonfun$main$3$$anonfun$apply$mcVI$sp$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR$$anonfun$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$factory$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$factory$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$fun08$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$fun08$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$fun10$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$fun10$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson02_Functions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$$anonfun$main$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson03_Collections.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson04_trait$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson04_trait.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson05_case_class$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson05_case_class.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson06_match$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson06_match$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson06_match.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson07_PartialFunction$$anonfun$xxx$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson07_PartialFunction$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson07_PartialFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson08_implicit$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson08_implicit$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson08_implicit$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Lesson08_implicit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Mg$class.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Mg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/TestJava.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/XXX.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/ooxx$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/scala/ooxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountJava$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountJava$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountJava$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountJava$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountJava.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountScala$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountScala$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountScala$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountScala$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountScala$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountScala$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountScala$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountScala$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/WordCountScala.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01$$anonfun$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson01_rdd_api01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson02_rdd_api_sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$6$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$$anonfun$main$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson03_rdd_aggregator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson04_rdd_partitions$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson04_rdd_partitions$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson04_rdd_partitions$$anonfun$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson04_rdd_partitions$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson04_rdd_partitions$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson04_rdd_partitions$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson04_rdd_partitions$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson04_rdd_partitions$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson04_rdd_partitions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson05_rdd_gaoji$$anonfun$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson05_rdd_gaoji$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson05_rdd_gaoji$$anonfun$2$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson05_rdd_gaoji$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson05_rdd_gaoji$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson05_rdd_gaoji$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson05_rdd_gaoji$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/msb/bigdata/spark/lesson05_rdd_gaoji.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapred-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yarn-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/opt/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx1768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1SRgb8mHG25sjSD7ktDW6WDcf8J" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bigdata_redis" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.msb.bigdata.spark" />
+      <recent name="com.msb.bigdata.scala" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.msb.bigdata" />
+      <recent name="com.msb.bigdata.hdfs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bigdata_redis" />
+      <recent name="$PROJECT_DIR$/bigdata_zookeeper" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/bigdatahadoop" />
+      <recent name="$PROJECT_DIR$/bigdataspark/src/main/scc/com/msb/ooxx/spark" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.lesson01_rdd_api01">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson01_IF_WHILE_FOR" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.bigdata.scala.Lesson01_IF_WHILE_FOR" />
+      <module name="bigdata-spark" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.bigdata.scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFof" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.bigdata.hadoop.fof.MyFof" />
+      <module name="BigDataArchitect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.bigdata.hadoop.fof.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.bigdata.hadoop.wc.MyWordCount" />
+      <module name="bigdata" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.bigdata.hadoop.wc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson01_rdd_api01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.bigdata.spark.lesson01_rdd_api01" />
+      <module name="BigDataArchitect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.bigdata.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ooxx" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.bigdata.scala.ooxx" />
+      <module name="BigDataArchitect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.bigdata.scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHDFS.mkdir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.bigdata.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.msb.bigdata.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.msb.bigdata.hadoop.hdfs.TestHDFS" />
+      <option name="METHOD_NAME" value="mkdir" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyFof" />
+      <item itemvalue="Application.Lesson01_IF_WHILE_FOR" />
+      <item itemvalue="Application.MyWordCount" />
+      <item itemvalue="JUnit.TestHDFS.mkdir" />
+      <item itemvalue="Application.ooxx" />
+      <item itemvalue="Application.lesson01_rdd_api01" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.lesson01_rdd_api01" />
+        <item itemvalue="Application.ooxx" />
+        <item itemvalue="Application.MyWordCount" />
+        <item itemvalue="JUnit.TestHDFS.mkdir" />
+        <item itemvalue="Application.Lesson01_IF_WHILE_FOR" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5970735-b227-4cf9-a656-bd146d219b83" name="Default Changelist" comment="" />
+      <created>1571531890592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571531890592</updated>
+      <workItem from="1571531891816" duration="2179000" />
+      <workItem from="1571534132842" duration="296000" />
+      <workItem from="1571534448473" duration="1181000" />
+      <workItem from="1571535750361" duration="4465000" />
+      <workItem from="1571540476197" duration="2849000" />
+      <workItem from="1571543516817" duration="1102000" />
+      <workItem from="1571544628578" duration="1122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+</project>
