@@ -5,25 +5,28 @@
 
   <groupId>com.msb.bigdata</groupId>
   <artifactId>bigdata</artifactId>
-  <version>1.0-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
 
-
-  <modules>
-    <module>bigdata_hadoop</module>
-    <module>bigdata_spark</module>
-    <module>bigdata_zookeeper</module>
-    <module>bigdata_redis</module>
-  </modules>
-  <modelVersion>4.0.0</modelVersion>
-
-
-    <!--   启用springboot支持  -->
+  <!--   启用springboot支持  -->
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.1.8.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
+
+  <modules>
+
+    <module>bigdata-hadoop</module>
+    <module>bigdata-redis</module>
+    <module>bigdata-zookeeper</module>
+    <module>bigdata-spark</module>
+  </modules>
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>pom</packaging>
+
+
+
 
 
 
