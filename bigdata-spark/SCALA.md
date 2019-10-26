@@ -72,10 +72,7 @@ scala是包级别区分，类名可以和文件名不一致
 ```
 
 _____
-TODO:2019-09-29:
-MarkDown
 
-IDEA中 plugins 中搜索  mind 安装 idea mind map
 
 
 
