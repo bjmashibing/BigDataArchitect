@@ -151,7 +151,7 @@ mapred-site.xml  :node03# mr-jobhistory-daemon.sh start historyserver
   . submit.sh   'org.apache.spark.examples.SparkPi'  "$SPARK_HOME/examples/jars/spark-examples_2.11-2.3.4.jar"
   ```
   
-## 调度
+### 调度
 
 ```
 --deploy-mode  
@@ -166,3 +166,87 @@ mapred-site.xml  :node03# mr-jobhistory-daemon.sh start historyserver
 --executor-memory  1024m
 ```
   
+  
+##  YARN
+
+Spark On Yarn！
+
+Kylin -> 麒麟
+
+### 部署
+
+1.  退掉 spark的  master 、worker
+2.  spark on yarn ：不需要 master，worker的配置,rm -fr slaves
+3.  只需要启动yarn的角色
+
+
+####    配置：
+spark-env.sh
+```
+export HADOOP_CONF_DIR=/opt/bigdata/hadoop-2.6.5/etc/hadoop
+```
+spark-defaults.conf
+```
+    spark.eventLog.enabled true
+    spark.eventLog.dir hdfs://mycluster/spark_log
+    spark.history.fs.logDirectory  hdfs://mycluster/spark_log
+    spark.yarn.jars  hdfs://mycluster/work/spark_lib/jars/*
+```
+
+```
+client:ExecutorLauncher  
+cluster:ApplicationMaster
+spark-shell  只支持  client模式
+spark-submit  跑非repl 的可以是client、cluster
+```
+
+```
+#--total-executor-cores 6 \
+#--executor-cores 4 \
+class=org.apache.spark.examples.SparkPi
+
+jar=$SPARK_HOME/examples/jars/spark-examples_2.11-2.3.4.jar
+#master=spark://node01:7077,node02:7077
+master=yarn
+
+
+
+$SPARK_HOME/bin/spark-submit   \
+--master $master \
+--deploy-mode cluster \
+--class $class  \
+$jar \
+100000
+```
+
+### 慢~！
+```
+spark.yarn.jars  hdfs://mycluster/work/spark_lib/jars/*
+./spark-shell --master yarn 
+hdfs dfs -ls -h /user/root/.sparkStaging/
+```
+
+### 调度
+
+```
+--driver-memory MEM
+--executor-memory MEM
+
+--executor-cores NUM
+--num-executors NUM
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
