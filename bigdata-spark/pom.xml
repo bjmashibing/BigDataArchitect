@@ -18,5 +18,18 @@
             <artifactId>spark-core_2.11</artifactId>
             <version>2.3.4</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.3.4</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.codehaus.janino</groupId>
+            <artifactId>commons-compiler</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
     </dependencies>
 </project>
