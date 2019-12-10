@@ -60,7 +60,7 @@ object lesson04_sql_standalone_hive {
     sql("use msb")
     ss.catalog.listTables().show() //作用再msb这个库
 
-    sql("create table table02(name string)")  //作用再current库
+    sql("create table table02(name string)")  //作用再msb库
     ss.catalog.listTables().show() //作用再msb这个库
 
     //    sql("select * from msb.xxxx").show()
