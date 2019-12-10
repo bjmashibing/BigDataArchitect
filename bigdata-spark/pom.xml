@@ -23,8 +23,31 @@
             <artifactId>spark-sql_2.11</artifactId>
             <version>2.3.4</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-hive_2.11</artifactId>
+            <version>2.3.4</version>
+        </dependency>
 
 
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.48</version>
+        </dependency>
+
+
+
+
+
+
+
+
+
+        <!--
+            和其他框架整合使用时有可能报错compiler
+        -->
         <dependency>
             <groupId>org.codehaus.janino</groupId>
             <artifactId>commons-compiler</artifactId>

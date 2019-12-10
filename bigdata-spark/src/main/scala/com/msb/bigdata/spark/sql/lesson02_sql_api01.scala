@@ -3,7 +3,7 @@ package com.msb.bigdata.spark.sql
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types.{DataType, DataTypes, StructField, StructType}
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.sql.{DataFrame, Dataset, Encoders, Row, SparkSession}
+import org.apache.spark.sql.{DataFrame, Dataset, Encoders, RelationalGroupedDataset, Row, SaveMode, SparkSession}
 
 import scala.beans.BeanProperty
 
@@ -31,6 +31,71 @@ object lesson02_sql_api01 {
     val sc: SparkContext = session.sparkContext
     sc.setLogLevel("ERROR")
 
+
+    import  session.implicits._
+
+
+    val dataDF: DataFrame = List(
+      "hello world",
+      "hello world",
+      "hello msb",
+      "hello world",
+      "hello world",
+      "hello spark",
+      "hello world",
+      "hello spark"
+    ).toDF("line")
+
+
+    dataDF.createTempView("ooxx")
+
+    val df: DataFrame = session.sql("select * from ooxx")
+    df.show()
+    df.printSchema()
+
+    println("-------------------------------")
+    session.sql(" select word, count(*) from   (select explode(split(line,' ')) as word from ooxx) as tt   group by tt.word  ").show()
+    println("-------------------------------")
+
+    //面向api的时候，df相当于 from tab
+    val res: DataFrame = dataDF.selectExpr("explode(split(line,' ')) as word").groupBy("word").count()
+
+    /*
+    以上两种方式，哪个更快？
+    为什么时第二种
+         */
+    println("-------------------------------")
+
+    res.write.mode(SaveMode.Append).parquet("./bigdata-spark/data/out/ooxx")
+
+    println("-------------------------------")
+
+
+    val frame: DataFrame = session.read.parquet("./bigdata-spark/data/out/ooxx")
+
+    frame.show()
+    frame.printSchema()
+
+    /*
+    基于文件的行式：
+    session.read.parquet()
+    session.read.textFile()
+    session.read.json()
+    session.read.csv()
+    读取任何格式的数据源都要转换成DF
+    res.write.parquet()
+    res.write.orc()
+    res.write.text()
+    */
+
+
+
+
+
+
+
+
+
     //数据+元数据  ==  df   就是一张表！！！！
 
     //1  数据：  RDD[Row]
@@ -50,22 +115,18 @@ object lesson02_sql_api01 {
      * 中间态：--》一切以后续计算成本为考量
      * 文件格式类型？
      * 分区/分桶
-     */
-    val ds01: Dataset[String] = session.read.textFile("./bigdata-spark/data/person.txt")
-    val person: Dataset[(String, Int)] = ds01.map(
-      line => {
-        val strs: Array[String] = line.split(" ")
-        (strs(0), strs(1).toInt)
-      }
-    )(Encoders.tuple(Encoders.STRING, Encoders.scalaInt))
-
-    val cperson: DataFrame = person.toDF("name","age")
-    cperson.show()
-    cperson.printSchema()
-
-
-
-
+    */
+//    val ds01: Dataset[String] = session.read.textFile("./bigdata-spark/data/person.txt")
+//    val person: Dataset[(String, Int)] = ds01.map(
+//      line => {
+//        val strs: Array[String] = line.split(" ")
+//        (strs(0), strs(1).toInt)
+//      }
+//    )(Encoders.tuple(Encoders.STRING, Encoders.scalaInt))
+//
+//    val cperson: DataFrame = person.toDF("name","age")
+//    cperson.show()
+//    cperson.printSchema()
 
 
 
