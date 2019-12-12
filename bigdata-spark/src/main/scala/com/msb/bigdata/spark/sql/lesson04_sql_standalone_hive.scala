@@ -25,6 +25,9 @@ object lesson04_sql_standalone_hive {
     import ss.sql
 
 
+
+
+
     /**
      * 一定要记住有数据库的概念~！！！！！！！！！！！！！！！！！！！！
      * use default
