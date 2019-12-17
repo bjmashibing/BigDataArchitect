@@ -1,5 +1,6 @@
 package com.msb.bigdata.spark.sql
 
+import org.apache.spark.sql.catalyst.plans.logical.LogicalPlan
 import org.apache.spark.sql.expressions.{MutableAggregationBuffer, UserDefinedAggregateFunction}
 import org.apache.spark.sql.types.{DataType, DoubleType, IntegerType, StructField, StructType}
 import org.apache.spark.sql.{DataFrame, Row, SparkSession}
@@ -120,7 +121,7 @@ object lesson06_sql_functions {
 //      "  else 'cha' " +
 //      "end  "
 //
-//    ).show()
+//    ).show
 
 //    ss.sql("select * ," +
 //      "case " +
@@ -147,12 +148,43 @@ object lesson06_sql_functions {
 //    ss.sql("select * from users  order by name  desc ,score  asc").show()
 
 
-//    ss.sql("select  name,   " +
+//    val res: DataFrame = ss.sql("select  name,   " +
 //      " sum(score) " +
 //      "from users " +
 //      "group by name " +
 //      "order by name desc")
-//      .show()
+//
+//    res.show()
+//    println("-----------")
+//    res.explain(true)
+
+    val res: DataFrame = ss.sql("  select ta.name  , ta.class  ,tb.score + 20 + 80   " +
+      "from    " +
+      "( select name , class  from users ) as ta   " +
+      "join" +
+      "( select name , score from users where score > 10) as tb  " +
+      "on ta.name  =  tb.name  " +
+      "where  tb.score > 60  ")
+
+
+//    val res: DataFrame = ss.sql("select   ta.name  " +
+//      "from " +
+//      "(select * from " +
+//      "(select * from users  where score > 60 ) as tt ) as ta ")
+
+
+
+    res.show()
+    println("------------------------")
+    res.explain(true )
+
+
+
+
+
+
+
+
 
   }
 

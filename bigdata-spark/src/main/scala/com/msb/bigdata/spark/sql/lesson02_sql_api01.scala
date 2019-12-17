@@ -88,6 +88,7 @@ object lesson02_sql_api01 {
     res.write.text()
     */
 
+    session.read.textFile("dfsdf")
 
 
 
