@@ -174,13 +174,9 @@ object lesson06_sql_functions {
 
 
 
-    res.show()
-    println("------------------------")
-    res.explain(true )
-
-
-
-
+//    res.show()
+//    println("------------------------")
+//    res.explain(true )
 
 
 
