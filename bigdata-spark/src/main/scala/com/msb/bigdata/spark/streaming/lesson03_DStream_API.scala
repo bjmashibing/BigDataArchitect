@@ -2,8 +2,8 @@ package com.msb.bigdata.spark.streaming
 
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD
-import org.apache.spark.streaming.dstream.{DStream, ReceiverInputDStream}
-import org.apache.spark.streaming.{Duration, Seconds, StreamingContext}
+import org.apache.spark.streaming.dstream.{DStream, MapWithStateDStream, ReceiverInputDStream}
+import org.apache.spark.streaming.{Duration, Seconds, State, StateSpec, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
 object lesson03_DStream_API {
@@ -13,10 +13,58 @@ object lesson03_DStream_API {
 
     //spark streaming  100ms batch    1ms
     //low level api
-    val conf: SparkConf = new SparkConf().setMaster("local[8]").setAppName("testAPI")
+    val conf: SparkConf = new SparkConf().setMaster("local[2]").setAppName("testAPI")
     val sc = new SparkContext(conf)
     sc.setLogLevel("ERROR")
+    sc.setCheckpointDir(".")
+//    sc.setCheckpointDir("hdfs://mycluster/ooxx/spark/sdfs")
     val ssc = new StreamingContext(sc,Duration(1000))  //最小粒度  约等于：  win：  1000   slide：1000
+
+
+
+    //有状态计算
+    //状态<-  历史数据  join、关联  历史的计算要存下来，当前的计算最后还要合到历史数据里
+    //  持久化下来 历史的数据状态
+    //persist    blockmanager  速度快  可靠性差
+    // checkpoin    外界系统   成本高  可靠性好
+    //persist  调用后  再做 checkpoin  =>数据会在2个地方都存储
+
+    val data: ReceiverInputDStream[String] = ssc.socketTextStream("localhost",8889)
+    val mapdata: DStream[(String, Int)] = data.map(_.split(" ")).map(x=>(x(0),1))
+//    mapdata.reduceByKey(_+_)
+//    val res: DStream[(String, Int)] = mapdata.updateStateByKey(
+//      (nv: Seq[Int], ov: Option[Int]) => {
+//
+//        println("....updata...fun")
+//        //每个批次的job里  对着nv求和
+//        val count: Int = nv.count(_ > 0)
+//        val oldVal: Int = ov.getOrElse(0)
+//        Some(count + oldVal)
+//
+//      })
+
+
+    val res: MapWithStateDStream[String, Int, Int, (String, Int)] = mapdata.mapWithState(StateSpec.function(
+
+      (k: String, nv: Option[Int], ov: State[Int]) => {
+
+        println(s"*************k:$k  nv:${nv.getOrElse(0)}   ov ${ov.getOption().getOrElse(0)}")
+        (k, nv.getOrElse(0) + ov.getOption().getOrElse(0))
+
+      }
+
+
+    ))
+
+
+
+    res.print()
+
+
+
+
+
+
 //    Seconds(1)
 
 //    val rdd: RDD[Int] = sc.parallelize( 1 to 10)
@@ -40,7 +88,7 @@ object lesson03_DStream_API {
      */
 
       //这个数据源的粗粒度： 1s  来自于 StreamContext
-    val resource: ReceiverInputDStream[String] = ssc.socketTextStream("localhost",8889)
+//    val resource: ReceiverInputDStream[String] = ssc.socketTextStream("localhost",8889)
 
     /*
     hello 1
@@ -51,7 +99,7 @@ object lesson03_DStream_API {
     hi 2
     hi 2
      */
-    val format: DStream[(String, Int)] = resource.map(_.split(" ")).map(x=>(x(0),x(1).toInt))
+//    val format: DStream[(String, Int)] = resource.map(_.split(" ")).map(x=>(x(0),1))
 
     /*
     hello 1
@@ -66,6 +114,7 @@ object lesson03_DStream_API {
 
 
 
+//    format.window(Duration(3000),Duration(2000))
 
     //-------------------------------------DSteam 转换到RDD 及 代码作用域-----------------------------------------------
 
@@ -173,6 +222,32 @@ object lesson03_DStream_API {
 //    val res: DStream[(String, Int)] = win.reduceByKey(_+_)  //在基于上一步的量上整体发生计算
 
 //    val res: DStream[(String, Int)] = format.reduceByKeyAndWindow(_+_,Duration(5000))
+
+//    val resource: ReceiverInputDStream[String] = ssc.socketTextStream("localhost",8889)
+//    val format: DStream[(String, Int)] = resource.map(_.split(" ")).map(x=>(x(0),x(1).toInt))
+//    //调优：
+//    //reduceByKey 对  combinationBykey的封装  放入函数，聚合函数，combina函数
+//    val res: DStream[(String, Int)] = format.reduceByKeyAndWindow(
+//      //计算新进入的batch的数据
+//      (ov:Int,nv:Int)=>{
+//        println("first fun......")
+//        println(s"ov:$ov  nv:$nv")
+//
+//        ov+nv
+//    }
+//
+//      ,
+//      //挤出去的batch的数据
+//      (ov:Int,oov:Int)=>{
+////        println("di 2 ge fun.....")
+////        println(s"ov:$ov   oov:$oov")
+//        ov-oov
+//      }
+//      ,
+//      Duration(6000),Duration(2000)
+//    )
+//
+//    res.print()
 //
 //
 //
