@@ -157,6 +157,8 @@
     <orderEntry type="library" name="Maven: com.carrotsearch:hppc:0.7.2" level="project" />
     <orderEntry type="library" name="Maven: com.vlkan:flatbuffers:1.2.0-3f79e055" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-streaming_2.11:2.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-streaming-kafka-0-10_2.11:2.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-hive_2.11:2.3.4" level="project" />
     <orderEntry type="library" name="Maven: com.twitter:parquet-hadoop-bundle:1.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.spark-project.hive:hive-exec:1.2.1.spark2" level="project" />
