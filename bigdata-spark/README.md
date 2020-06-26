@@ -1,7 +1,8 @@
 ##  Spark教程
 
 **IDEA中 plugins 中搜索  mind 安装 idea mind map**
-
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'hadoop';
+flush privileges; 
 ##  阶段：
 ```
 1.  scala语言

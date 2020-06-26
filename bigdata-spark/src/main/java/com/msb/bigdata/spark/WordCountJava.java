@@ -10,6 +10,7 @@ import org.apache.spark.api.java.function.PairFunction;
 import org.apache.spark.api.java.function.VoidFunction;
 import scala.Tuple2;
 
+import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Iterator;
 
@@ -20,7 +21,7 @@ import java.util.Iterator;
 public class WordCountJava {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         SparkConf conf = new SparkConf();
         conf.setAppName("java-wordcount");
@@ -53,6 +54,19 @@ public class WordCountJava {
                 System.out.println(value._1+"\t"+value._2);
             }
         });
+
+//
+//        RandomAccessFile rfile = new RandomAccessFile("ooxx","rw");
+//
+////        rfile.seek(222);
+//        FileChannel channel = rfile.getChannel();
+//        //  linux  fd   write(fd)  read(fd)
+//
+//
+//        ByteBuffer b1 = ByteBuffer.allocate(1024);
+//        ByteBuffer b2 = ByteBuffer.allocateDirect(1024);
+//        MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_WRITE, 80, 120);
+//
 
 
     }
